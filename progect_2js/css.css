@@ -1,0 +1,38 @@
+body{
+    font-family: "Tajawal", sans-serif;
+        font-weight: 600;
+}
+.all{
+background-color: rgba(255, 255, 255, 0.932);
+    /* height: 500px; */
+    width: 70%;
+
+}
+
+.task{
+    background-color: rgba(255, 255, 255, 0.932);
+    transition:box-shadow 0.2s;
+    height: 90px;
+}
+
+.task:hover{
+ box-shadow: 0px 3px 15px rgba(97,97,97,0843);
+}
+
+.Done{
+    background-color: rgb(196, 251, 200);
+   
+}
+button{
+    border: none;
+    font-size: 20px;
+  
+}
+.cir{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+.cir:hover{
+    transform: rotate(335deg);
+}
